@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext"], // Avoid "dom" unless necessary
+    "types": ["node"], // Specify only the node types
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules"]
+}
